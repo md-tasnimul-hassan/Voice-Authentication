@@ -17,9 +17,8 @@ Includes both a lightweight Command Line Interface (CLI) and a fully featured Ob
 * **Interactive GUI:** Built with MATLAB App Designer, featuring real-time waveform plotting and MFCC visual analysis (spectrogram-style heatmaps).
 
 ## 📸 Screenshots
-*(Note: Add your screenshots to the `assets` folder and uncomment these lines)*
-<!-- ![Enrollment Tab](assets/gui_enroll.png) -->
-<!-- ![Verification Tab](assets/gui_verify.png) -->
+![Enrollment Tab](assets/Screenshot%202026-04-02%20071324.png)
+![Verification Tab](assets/Screenshot%202026-04-02%20064348.png)
 
 ## 🧠 How It Works (The Pipeline)
 1. **Pre-processing:** Raw audio is converted to mono. A high-pass filter (`[1 -0.97]`) is applied to amplify high frequencies (pre-emphasis). Silence at the beginning and end of the audio is removed.
