@@ -1,5 +1,3 @@
-# Voice-Authentication
-A MATLAB-based voice biometric system. Implements DSP preprocessing, MFCC feature extraction, and K-Means Vector Quantization with a custom GUI.
 # Voice Biometrics Authentication System 🎙️🔐
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2021a%2B-blue.svg)
