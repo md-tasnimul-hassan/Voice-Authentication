@@ -37,4 +37,4 @@ Includes both a lightweight Command Line Interface (CLI) and a fully featured Ob
 ### Running the GUI App
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/Voice-Authentication-System.git
+   git clone https://github.com/YourUsername/Voice-Authentication.git
