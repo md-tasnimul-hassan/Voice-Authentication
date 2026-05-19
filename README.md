@@ -7,6 +7,14 @@
 
 A voice authentication system built with MATLAB. This project captures raw audio, extracts acoustic features using Mel-Frequency Cepstral Coefficients (MFCC), and authenticates users via Vector Quantization (VQ) using the K-Means clustering machine learning algorithm.
 
+<p align="center">
+  <img src="assets/Screenshot%202026-04-02%20071324.png" width="420"/>
+  &nbsp;&nbsp;
+  <img src="assets/Screenshot%202026-04-02%20064348.png" width="420"/>
+  &nbsp;&nbsp;
+  <img src="assets/Screenshot%202026-04-02%20071406.png" width="420"/>
+</p>
+
 The files uploaded to this repo includes both a lightweight Command Line Interface (CLI) and a fully featured Object-Oriented Graphical User Interface (GUI).
 
 ## 🚀 Features
@@ -15,11 +23,6 @@ The files uploaded to this repo includes both a lightweight Command Line Interfa
 * **Feature Extraction:** Extracts 13-dimensional MFCCs using Hamming windows to model the human vocal tract.
 * **Machine Learning Model:** Utilizes K-Means clustering to generate 16-centroid Vector Quantization codebooks per user, reducing data footprint while retaining unique vocal characteristics.
 * **Interactive GUI:** Built with MATLAB App Designer, featuring real-time waveform plotting and MFCC visual analysis (spectrogram-style heatmaps).
-
-## 📸 Screenshots
-![Enrollment Tab](assets/Screenshot%202026-04-02%20071324.png)
-![Verification Tab](assets/Screenshot%202026-04-02%20064348.png)
-![Analysis Tab](assets/Screenshot%202026-04-02%20071406.png)
 
 ## 🧠 How It Works 
 1. **Pre-processing:** Raw audio is converted to mono. A high-pass filter (`[1 -0.97]`) is applied to amplify high frequencies (pre-emphasis). Silence at the beginning and end of the audio is removed.
