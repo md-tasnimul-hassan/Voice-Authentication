@@ -19,6 +19,7 @@ The files uploaded to this repo includes both a lightweight Command Line Interfa
 ## 📸 Screenshots
 ![Enrollment Tab](assets/Screenshot%202026-04-02%20071324.png)
 ![Verification Tab](assets/Screenshot%202026-04-02%20064348.png)
+![Analysis Tab](assets/Screenshot%202026-04-02%20071406.png)
 
 ## 🧠 How It Works 
 1. **Pre-processing:** Raw audio is converted to mono. A high-pass filter (`[1 -0.97]`) is applied to amplify high frequencies (pre-emphasis). Silence at the beginning and end of the audio is removed.
